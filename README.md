@@ -41,8 +41,8 @@ This repository contains two integrated projects:
 ```
 Natural-Gas-Market-Analytics/
 │
-├── task_1_chase.py              # Price forecasting model
-├── task_2_chase.py              # Contract valuation system
+├── nat_gas_price_pred.py              # Price forecasting model
+├── Gas_storage_val.py              # Contract valuation system
 ├── Nat_Gas.csv                  # Historical price data
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
@@ -69,7 +69,7 @@ Make sure Nat_Gas.csv is in the root directory.
 
 Run the forecasting model:
 ```bash
-python task_1_chase.py
+python nat_gas_price_pred.py
 ```
 
 The script will load historical data, train the model, and provide an interactive interface to estimate prices for any future date.
@@ -87,12 +87,12 @@ Estimated price for June 2025: $3.12
 
 Run the contract valuation system:
 ```bash
-python task_2_chase.py
+python Gas_storage_val.py
 ```
 
 Example usage in code:
 ```python
-from task_2_chase import GasStorageContract
+from Gas_storage_val import GasStorageContract
 
 pricer = GasStorageContract('Nat_Gas.csv')
 
