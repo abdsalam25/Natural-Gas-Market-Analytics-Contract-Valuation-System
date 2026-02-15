@@ -169,5 +169,5 @@ This project is available under the MIT License.
 
 ## Author
 
-Abdsalam
+Abdul Salam
 GitHub: github.com/abdsalam25
